@@ -1,0 +1,38 @@
+div.header-team {
+	text-align: center;
+}
+
+div.header-team p {
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#header-photo {
+	height: 140px;
+	width: 210px;
+}
+
+#developers-info-wrapper {
+	text-align: center;
+	margin: 5% 5%;
+}
+
+figure.developer {
+	width: 20%;
+	display: inline-block;
+}
+
+figure.developer img {
+	width: 50%;
+	border-radius: 50%;
+	border-color: #253136;
+	border-style: dashed;
+}
+
+figure.developer p {
+	font-style: italic;
+	font-size: 130%;
+	margin: 5%;
+}

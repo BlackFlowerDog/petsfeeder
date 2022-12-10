@@ -1,0 +1,15 @@
+#timer {
+	background-color: #b3b3b3;
+	border-radius: 10px;
+	border: 2px solid white;
+	text-align: center;
+	font-size: 150%;
+	max-height: 50%;
+	width: 30%;
+	margin: auto;
+}
+
+#timer p {
+	margin: 7%;
+	line-height: 70%;
+}

@@ -1,0 +1,31 @@
+{% extends "/base_pages/base_with_petcard.html" %}
+{% block div%}
+<link rel="stylesheet" type="text/css" href="/static/css/main/block-with-meter.css">
+<link rel="stylesheet" type="text/css" href="/static/css/main/timer.css">
+<div id="rang">
+    <div id="rang-title">
+        <p class="block-header">FOOD LEVEL</p>
+        <svg id="meter" viewBox="0 0 180 155">
+            <circle id="meter-left" r="96" cx="90" cy="142"/>
+            <circle id="meter-center" r="96" cx="90" cy="142"/>
+            <circle id="meter-rigth" r="96" cx="90" cy="142"/>
+            <polygon id="meter-pointer" points="88,153 90,100 94,153"/>
+            <circle id="meter-circle" r="10" cx="90" cy="144"/>
+        </svg>
+        <p id="foodlevel"> </p>
+        <div id="timer-wrapper">
+            <div id="timer">
+                <p>Until next feed:</p>
+                <p id="timer-data"></p>
+            </div>
+        </div>
+        <div id="feedinterface">
+            <img src="https://fcbk.su/_data/stickers/simons_cat/simons_cat_03.png">
+            <input type="button" class="button" onclick="fillBowl()" value="Fill the bowl" id="feedbutton" >
+        </div>
+    </div>
+   
+</div>
+<script src="/static/js/sensors.js"></script>
+<script src="/static/js/timer.js"></script>
+{% endblock %}

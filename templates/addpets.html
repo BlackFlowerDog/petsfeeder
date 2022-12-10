@@ -1,0 +1,38 @@
+{% extends "/base_pages/base_with_petcard.html" %}
+{% block div %}
+<link rel="stylesheet" type="text/css" href="/static/css/addpets.css">
+<div id="wrapper-input">
+    <p class="block-header">NEW PET</p>
+    <div id="input-block">
+        <div id="input-fields-wrapper">
+            <img id="input-icon" src="https://img.icons8.com/ios/500/pets--v1.png" align="right" height="50" width="50">
+            <div id="input-fields">
+                <form class="new-pet-data" method="POST" enctype="multipart/form-data" >
+                    <p >Input info about your pet:</p>
+                    <input type="text" placeholder="Pet name" class="name" name="name" id="name" maxlength="10">
+                    <div class="radio">
+                        <input label="cat" type="radio" id="cat" name="type" value="cat" checked>
+                        <input label="dog" type="radio" id="dog" name="type" value="dog">
+                    </div>
+                    <div class="radio">
+                        <input label="Male" type="radio" id="male" name="gender" value="male" checked>
+                        <input label="Female" type="radio" id="female" name="gender" value="female">
+                    </div>
+                    <p>Birthday: <input type="date" placeholder="birthday" name="birthday"></p>
+                    <p><input type="checkbox" name="isSchedule"> Use schedule </p>
+
+                    <div id="upload-file-button">
+                        <label for="image-uploads">Choose image to upload (PNG, JPG).</label>
+                        <input type="file" id="image-uploads" name="photo" accept=".jpg, .jpeg, .png">
+                    </div>
+                    <div class="preview-photo-upload">
+                        <p>No file currently selected for upload.</p>
+                    </div>  
+                    <p> <input type="image" id="save-button" name="picture" src="https://webstockreview.net/images/check-icon-png-13.png" width="40" height="40" align="right"></p>
+                </form>
+            </div>
+        </div>   
+    </div>
+</div>
+<script src="/static/js/addpets.js"></script>
+{% endblock %}	

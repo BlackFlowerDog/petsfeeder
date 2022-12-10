@@ -1,0 +1,117 @@
+/*page*/
+#wrapper {
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.block-header {
+	font-size: 270%;
+	color: #253136;
+    text-align: center;
+}
+
+/*left block, pets cards*/
+
+#petcard-interface{
+	width: 50%;
+	float: left;
+    margin: auto;
+}
+
+.arrow-icon:hover {
+  	box-shadow: 0 3px 20px #505050;
+  	transform: translateY(+10px);
+    border-radius: 25px;
+    transition: 1s;
+}
+
+#arrow-right {
+    display: table-cell;
+}
+
+#arrow-left { 
+    display: table-cell;
+}
+
+#cards-wrapper {
+    display: table-cell;
+}
+
+/* pet card */
+
+.card {
+    text-align: center;
+}
+
+.card-info-wrapper {
+    padding: 0;
+	font-size: 170%;
+	margin-bottom: 6%;
+	border-collapse: separate;
+	border-spacing: 5px;
+	background: #ECE9E0;
+	color: #656665;
+	border: 16px solid #ECE9E0;
+	border-radius: 20px;
+    display: inline-block;
+    width: auto;
+    min-width: 35%;
+    max-width: 70%;
+}
+
+.card-info-wrapper p {
+    text-align: center;
+    width: 90%;
+    clear: right;
+}
+
+.card-icon {  
+    padding: 0;
+    margin: 0;   
+}
+
+.card-info {
+    margin: 5px;
+    background: #F5D7BF;
+	padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.pet-photo {
+    width: auto;
+    min-width: 35%;
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(45deg, #337AB7, #d5e5e8 10px, transparent 10px, transparent 20px,  #F2906B 20px,  #F5D7BF 30px,transparent 30px, transparent 40px);
+}
+
+/* for current used schedule */
+
+[data-tooltip] {
+    position: relative; 
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip); 
+    position: absolute; 
+    max-width: 100%; 
+    height: auto;
+    word-wrap: break-word;
+    text-align: center;
+    left: 0; top: 0;
+    background: #337AB7;
+    color: #fff;
+    padding: 0.5em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    top: 2em;
+}

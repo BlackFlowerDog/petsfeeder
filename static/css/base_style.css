@@ -1,0 +1,180 @@
+/* for menu */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+nav.menu {
+	width: 100%;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.top > li {
+	display: inline-block;
+	margin-right: 30px;
+	position: relative;
+}
+
+.top li a {
+	display: block;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Lora', serif;
+	transition: .5s linear;
+	font-size: 170%;
+}
+
+.submenu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	transition: 0.5s easy-in-out;
+	list-style-type: none;
+}
+
+.menu ul {
+	background: #ECDAD6;
+	height: 80px;
+	border: 2px solid grey;
+}
+
+.menu ul a {
+	color: #695753;
+}
+
+.menu ul a:hover {
+	color: #403038;
+}
+
+.menu .submenu {
+	display: none;
+	height: auto;
+	background: #c7bcbd;	
+}
+
+.menu ul li:hover .submenu {
+	display: block;
+}
+
+/* end for menu */
+
+/* for body and footer*/
+
+html p {
+	font-family: 'Lora', serif;
+}
+
+body {
+	background: #d5e5e8;
+	min-height: 90%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+#footer {
+	border: 2px solid grey;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 150%;	
+  	background: rgb(245, 216, 216);
+}
+
+/* end for body and footer*/
+
+/* for input type */
+
+input[type="checkbox"] {
+    cursor: pointer;
+    appearance: none;
+    width: 40px;
+    height: 16px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    background: #ebebeb;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    transition: background 0.3s;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]:after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border:1px solid #aaa;
+    border-radius: 2px;
+    transition: left 0.1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+input[type="checkbox"]:checked {
+    background-image: linear-gradient(180deg, #95d891, #74bbad);
+    border-color: black;
+}
+
+input[type="checkbox"]:checked:after{
+    left: 23px;
+    border-color: #95d891;
+}
+  
+input[type="checkbox"]:hover:not(:checked):not(:disabled):after,
+input[type="checkbox"]:focus:not(:checked):not(:disabled):after {
+    left: 0px;
+}
+  
+input[type="checkbox"]:hover:checked:not(:disabled):after,
+input[type="checkbox"]:focus:checked:not(:disabled):after {
+    left: 22px;
+}
+  
+input[type="checkbox"]:disabled {
+    opacity: 0.5;
+}
+
+
+/* type text */
+input[type="text"] {
+    width: auto;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+
+/* end for input */
+
+/* for buttons */
+
+.button {
+	text-decoration: none;
+	outline: none;
+	width: 60%;
+	line-height: 45px;
+	border-radius: 45px;
+	font-family: 'Lora', serif;;
+	font-size: 100%;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #868787;
+	background: white;
+	box-shadow: 0 8px 15px rgba(0,0,0,.1);
+	transition: .3s;
+}
+
+.button:hover {
+	box-shadow: 0 10px 15px #868787;
+	color: black;
+	transform: translateY(-7px);
+}
+
+/* end for buttons */

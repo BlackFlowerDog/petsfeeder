@@ -1,0 +1,22 @@
+{% extends "/base_pages/base_with_petcard.html" %}
+{% block div %}
+<link rel="stylesheet" type="text/css" href="/static/css/schedule.css">
+<div id="schedule-block-wrapper">
+    <p class="block-header">SCHEDULE EDITOR</p>
+    <div id="schedule-tables-wrapper">
+       
+    </div>
+    <div id="editor-interface">
+        <button onclick="resetSchedule()" class="button" id="reset-schedule-button">
+            <span class='text'>Reset schedule</span>
+        </button>
+        <p id="input-time-field">Add time: <input type="text" name="time" placeholder="--:--" id="new-time" maxlength="5"/> </p>
+        <button onclick="addTime()" class="button" id="save-time-button">
+            <span class="text">Save time</span>
+        </button>
+    </div>
+</div>
+<script src="/static/js/setting_schedule/scheduleEditor.js"></script>
+<script src="/static/js/setting_schedule/scheduleRequests.js"></script>
+
+{% endblock %}

@@ -1,0 +1,73 @@
+/*right block, begin*/
+#rang {
+	text-align: center;
+	width: 50%;
+	float: right;
+}
+
+#rang-title {
+	width: 100%;
+}
+
+/*meter*/
+
+#meter {
+	display: right;
+	display: block;
+	width: 100%;
+	height: 210px;
+	margin-top: 10px;
+}
+
+#meter-left {
+	transform: skewX(-2deg) skewY(1deg);
+	stroke-width: 90;
+	stroke-dashoffset: 253;
+	stroke-dasharray: 120 400;
+	stroke: #de6868;
+	fill: none;
+}
+
+#meter-center {
+	stroke-width: 90;
+	stroke-dashoffset: 128;
+	stroke-dasharray: 120 400;
+	stroke: #ebe657;
+	fill: none;
+}
+
+#meter-rigth {
+	transform: skewX(2deg) skewY(1deg);
+	stroke-width: 90;
+	stroke-dashoffset: 5;
+	stroke-dasharray: 120 400;
+	stroke: #57eb57;
+	fill: none;
+}
+
+#meter-pointer {
+	transform: rotate(-54deg);
+	transform-origin: 90px 146px;
+	fill: #253136; 
+}
+
+#meter-circle {
+	fill: #253136;
+}
+
+/* fill bowl button */
+
+#feedinterface {
+	margin: 5%;
+}
+
+#feedbutton {
+  	width: 320px;
+  	height: 90px;
+  	float: right;
+  	margin: 6%;
+}
+
+#feedbutton:hover {
+	background: linear-gradient(180deg, #dbdbdb, #b6b6b6);;
+}
