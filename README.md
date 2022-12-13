@@ -13,12 +13,24 @@
 ## Подробное описание функционала, скриншоты страниц
 ### Pages
 Страниц всего четыре: одна с основной информацией, две для редактирования расписаний и списка питомцев и еще одна, оставленная мной по историческим причинам.
-Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
-#### MAIN, /
+Внешний вид меню
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/menu.png)
+#### MAIN, /
+
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/pet_card.png)
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/time_PC.png)
+
 #### ADD PETS, /settings/addpets
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/addPet.png)
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/uploads_image.png)
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/foodlvl.png)
+
 #### EDIT SCHEDULES, /settings/schedule
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/schedule_editor.png)
+
 #### ABOUT US, /about_us
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/about_us.png)
+
 ### Формат данных с сервера
 ### config.json
 ## Lisense
