@@ -13,7 +13,9 @@
 ## Подробное описание функционала, скриншоты страниц
 ### Pages
 Страниц всего четыре: одна с основной информацией, две для редактирования расписаний и списка питомцев и еще одна, оставленная мной по историческим причинам.
+Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
 #### MAIN, /
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/menu.png)
 #### ADD PETS, /settings/addpets
 #### EDIT SCHEDULES, /settings/schedule
 #### ABOUT US, /about_us
