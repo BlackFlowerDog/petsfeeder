@@ -39,6 +39,12 @@
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/about_us.png)
 
-### Формат данных с сервера
+
 ### config.json
-## Lisense
+
+```
+{"Cocca": {"type": true, "photoName": "Cocca201c72b1-aa26-4a61-a765-ded2347e65c3.jpg", "birthday": "", "sex": true, "schedule": {"activate": false, "time": ["12:12"]}}}
+```
+
+### Формат данных с сервера
+
