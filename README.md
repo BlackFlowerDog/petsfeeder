@@ -153,7 +153,7 @@
 ```
   { 
       "activate": true,
-      "time": ["12:12, "15:10"]
+      "time": ["12:12", "15:10"]
   }
 ```
 
@@ -170,6 +170,16 @@
   Название нужного аргумента - delete_pet.
   При удалении не должны удалятся фотографии с названиями default-cat.jpg и default-dog.jpg.
 
-3. Редактирование schedule 
+3. Редактирование schedule: сброс расписания, добавление времени, удаление времени, активация использования расписания
   
-    
+  Все четыре действия обрабатываются по адресу /settings/schedule и являются GET-запросами.
+  Первым аргументом в запросе будет стоять наименование выполняемого действия (delete_time, change_activate, add_time, reset_schedul), можно получить по имени action, вторым - имя питомца, можно получить по имени pet_name. При удалении или добавлении времени появляетс третий аргумент - добавляемое или удаляемое время, который можно получить по имени time.
+  
+  Примеры запросов
+  
+```
+  /settings/schedule?action=delete_time&pet_name=Cocca&time=12:12
+  /settings/schedule?action=change_activation&pet_name=Cocca
+  /settings/schedule?action=add_time&pet_name=Cocca&time=15:10
+  /settings/schedule?action=reset_schedule&pet_name=Cocca
+```
