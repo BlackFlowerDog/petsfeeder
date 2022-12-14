@@ -17,7 +17,7 @@
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/menu.png)
 
-#### MAIN, /
+#### MAIN
 
 ![pet card](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/pet_card.png)
 
@@ -25,7 +25,7 @@
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/foodlvl.png)
 
-#### ADD PETS, /settings/addpets
+#### ADD PETS
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/addPet.png)
 
@@ -35,16 +35,24 @@
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/schedule_editor.png)
 
-#### ABOUT US, /about_us
+#### ABOUT US
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/about_us.png)
 
 
 ### config.json
 
+Все данные о животных хранит файл config.json, используемый как аналог базы данных. 
+Пример записи об одном питомце.
+
 ```
 {"Cocca": {"type": true, "photoName": "Cocca201c72b1-aa26-4a61-a765-ded2347e65c3.jpg", "birthday": "", "sex": true, "schedule": {"activate": false, "time": ["12:12"]}}}
 ```
+
+Все питомцы хранятся как записи в словаре. Ключом является имя животного, соответственно добавление нескольких питомцев с одинаковыми именами невозможно.
+Type - cat (true), dog (false). Sex - male (true), female (false).
+К началу названия загруженной фотографии добавляется имя питомца для создания уникального названия для фотографии во избежание ошибочного удаления из файловой системы при загрузке одинаковых фотографий для нескольких питомцев пользователем.
+Activate - отвечает за активацию расписания кормления. Time - массив со временем кормления, отсортированным по возрастанию.
 
 ### Формат данных с сервера
 
