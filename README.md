@@ -27,18 +27,38 @@
 
 #### ADD PETS
 
+Слева расположен блок с уже существующими питомцами. Справа от него форма для ввода данных о новом питомце. Обязательные поля: имя, пол и тип (кошка/собака) животного. Имя можеть иметь длину не более 10 символов.
+Для добавления питомца необходимо нажать расположенную справа внизу иконку галки.
+Так же с этой страницы доступно удаление питомца.
+
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/addPet.png)
+
+При загрузке фотографии отобразятся ее миниатюра, размер и название.
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/uploads_image.png)
 
-#### EDIT SCHEDULES, /settings/schedule
+#### EDIT SCHEDULES
+
+Слева карточка питомца, расписание которого отображается. При переключении между питомцами с помощью стрелок, соответственно будет меняться расписание. Оно отображается вне зависимости от того, активирована ли функция кормления по установленному времени или нет.
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/schedule_editor.png)
 
+Можно:
+- Активировать или деактивировать кормление по времени. При деактивации используемое раписание сохраняется;
+- Полностью сбросить расписание;
+- Удалить конкретное время из расписания (крест напротив записи в таблице);
+- Добавить новое время кормления в расписание.
+
+Если у питомца нет сохраненного времени, будет выведен шаблон.
+
+![Image ](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/image.png)
+
+
 #### ABOUT US
 
-![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/about_us.png)
+Можно использовать для заполнения инфомарции о команде создателей.
 
+![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/about_us.png)
 
 ### config.json
 
