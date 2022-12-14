@@ -63,6 +63,12 @@
 
 ![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/uploads_image.png)
 
+Если не загружать свою фотографию на сервер, то в качесте фотографии питомца будут использованы дефолтные кошка и собака.
+
+![Image alt](https://github.com/BlackFlowerDog/petsfeeder/static/images/raw/main/default-cat.jpg)
+
+![Image alt](https://github.com/BlackFlowerDog/petsfeeder/static/images/raw/main/default-dog.jpg)
+
 #### EDIT SCHEDULES
 
 Слева карточка питомца, расписание которого отображается. При переключении между питомцами с помощью стрелок, соответственно будет меняться расписание. Оно отображается вне зависимости от того, активирована ли функция кормления по установленному времени или нет.
