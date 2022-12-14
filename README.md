@@ -65,9 +65,9 @@
 
 Если не загружать свою фотографию на сервер, то в качесте фотографии питомца будут использованы дефолтные кошка и собака.
 
-![Image alt](https://github.com/BlackFlowerDog/petsfeeder/static/images/raw/main/default-cat.jpg)
+![Image alt](https://github.com/BlackFlowerDog/petsfeeder/raw/main/static/images/default-cat.jpg)
 
-![Image alt](https://github.com/BlackFlowerDog/petsfeeder/static/images/raw/main/default-dog.jpg)
+![Image alt](https://github.com/BlackFlowerDog/petsfeeder/raw/main/static/images/default-dog.jpg)
 
 #### EDIT SCHEDULES
 
