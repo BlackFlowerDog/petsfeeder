@@ -33,7 +33,7 @@ Data about pets are displayed in card-tables.
 
 Under the main information is a photo of the pet. If the photo was not uploaded when adding a pet, default-cat or default-dog will be used, depending on the specified type of animal. To switch between pets, you need to use the arrows located on both sides of the card. The cross in the upper left corner removes the currently displayed pet (appears only on the "add pet" page).
 
-![pet card](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/pet_card.png)
+![petcard](https://user-images.githubusercontent.com/115879518/208161563-c92b5e26-3caa-49c2-b81f-c3f8a0cc9563.png)
 
 When you hover the cursor over the black schedule icon on the bottom right, the feeding time used will drop out, but only if the feeding time is activated. Even if the pet has a saved schedule, it will not be displayed.
 
@@ -48,7 +48,7 @@ On the right is a meter that displays data from the feed level sensors in the bo
 Under the meter is a timer counting down the time until the next feeding (works if the schedule is activated).
 There is a bowl filling button under the timer.
 
-![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/foodlvl.png)
+![image](https://user-images.githubusercontent.com/115879518/208162012-c6af291b-892c-43c8-afb6-64dc19dd4f4a.png)
 
 #### ADD PETS
 
@@ -56,23 +56,23 @@ On the left there is a block with already existing pets. To the right of it is a
 To add a pet, click the jackdaw icon located at the bottom right.
 Pet removal is also available from this page (Cross in the upper left corner of pet card).
 
-![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/addPet.png)
+![image](https://user-images.githubusercontent.com/115879518/208162183-0e7e70fb-0369-49ec-b2c1-3b85bcabae3b.png)
 
 When uploading a photo, its thumbnail, size and name will be displayed.
 
-![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/uploads_image.png)
+![image](https://user-images.githubusercontent.com/115879518/208162381-090d6608-9ccd-4e54-ae82-a77df5c234fe.png)
 
 If you do not upload your photo to the server, then the "default-cat.jpg" and default-dog.jpg" will be used as a pet photo.
 
-![Image alt](https://github.com/BlackFlowerDog/petsfeeder/raw/main/static/images/default-cat.jpg)
+![image](https://user-images.githubusercontent.com/115879518/208162599-49b3b04b-9ead-477e-883a-8f4664d05d55.png)
 
-![Image alt](https://github.com/BlackFlowerDog/petsfeeder/raw/main/static/images/default-dog.jpg)
+![image](https://user-images.githubusercontent.com/115879518/208163160-6d12e06d-172f-447b-aad2-04fa30a0d5ac.png)
 
 #### EDIT SCHEDULES
 
 On the left is the card of the pet whose schedule is displayed. When switching between pets using the arrows, the schedule will change accordingly. It is displayed regardless of whether the feeding function is activated or not.
 
-![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/schedule_editor.png)
+![image](https://user-images.githubusercontent.com/115879518/208163360-2104b4ae-956f-44e8-b646-f4ceedf06d3c.png)
 
 Abilities:
     - Activate or deactivate feeding by time. When deactivated, the schedule used is saved;
@@ -88,7 +88,7 @@ If the pet does not have a saved time, a template will be displayed.
 
 Can be used to fill in information about the team of creators
 
-![Image alt](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/about_us.png)
+![image](https://user-images.githubusercontent.com/115879518/208163697-eec44ffb-17f3-4627-a366-94d92660c84e.png)
 
 ### config.json
 
