@@ -41,7 +41,7 @@ When you hover the cursor over the black schedule icon on the bottom right, the 
 
 If there are no safe pets, the card template will be displayed.
 
-![card_template](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/image.png)
+![card_template](https://user-images.githubusercontent.com/115879518/208209117-a6bb3811-a6e2-4576-b6ea-875eb75a3018.png)
 
 On the right is a meter that displays data from the feed level sensors in the bowl. When the arrow is pointed at the red sector, its color changes from pale to a richer red.
 
@@ -80,9 +80,9 @@ Abilities:
     - Remove a specific time from the schedule (cross next to the entry in the table);
     - Add a new feeding time to the schedule.
 
-If the pet does not have a saved time, a template will be displayed.
+If the pet does not have saved times, a template will be displayed.
 
-![schedule_template](https://github.com/BlackFlowerDog/laughing-bassoon/raw/main/image.png)
+![schedule_template](https://user-images.githubusercontent.com/115879518/208209249-c9947ca0-bddb-47b0-97bd-a0b986e6f6ce.png)
 
 #### ABOUT US
 
