@@ -41,7 +41,7 @@ When you hover the cursor over the black schedule icon on the bottom right, the 
 
 If there are no safe pets, the card template will be displayed.
 
-![card_template](https://user-images.githubusercontent.com/115879518/208209117-a6bb3811-a6e2-4576-b6ea-875eb75a3018.png)
+![card_template](https://user-images.githubusercontent.com/115879518/208213045-c870c6c1-cb7e-4825-b50d-1008c6297128.png)
 
 On the right is a meter that displays data from the feed level sensors in the bowl. When the arrow is pointed at the red sector, its color changes from pale to a richer red.
 
