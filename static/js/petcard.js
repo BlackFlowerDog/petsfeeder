@@ -153,7 +153,7 @@ function drawCardTemplate(){
 	document.querySelector('.age').innerHTML = "xx years xx month";
 	document.querySelector('.schedule').setAttribute('data-tooltip', "");
 	document.querySelector('.schedule').setAttribute('data-tooltip', "times for feed");
-	document.querySelector('.pet-photo').setAttribute('src', "https://ae03.alicdn.com/kf/H7e829ee3f6244a07aef8ca3830a31dffN.jpg");
+	document.querySelector('.pet-photo').setAttribute('src', "https://i.pinimg.com/originals/4b/b1/d6/4bb1d6b0f2248694b054a7bb9454b7e7.jpg");
 }
 
 function countAge(birthdayStr){
