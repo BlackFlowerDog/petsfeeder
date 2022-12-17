@@ -65,7 +65,6 @@ When uploading a photo, its thumbnail, size and name will be displayed.
 If you do not upload your photo to the server, then the "default-cat.jpg" and default-dog.jpg" will be used as a pet photo.
 
 ![def_cat](https://user-images.githubusercontent.com/115879518/208162599-49b3b04b-9ead-477e-883a-8f4664d05d55.png)
-
 ![def_dog](https://user-images.githubusercontent.com/115879518/208163160-6d12e06d-172f-447b-aad2-04fa30a0d5ac.png)
 
 #### EDIT SCHEDULES
