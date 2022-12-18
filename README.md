@@ -39,7 +39,7 @@ When you hover the cursor over the black schedule icon on the bottom right, the 
 
 ![time_petcard](https://user-images.githubusercontent.com/115879518/208164313-5cf7942d-b29f-434a-92e5-33b39354e907.png)
 
-If there are no safe pets, the card template will be displayed.
+If there are no saved pets, the card template will be displayed.
 
 ![card-template](https://user-images.githubusercontent.com/115879518/208213886-6e09946c-f667-4376-83af-a2b8ca5eca52.png)
 
@@ -147,7 +147,7 @@ The server sends all data in JSON format.
     }
 }
 ```
-  4. After making changes to the schedule, you need to re-draw new information on the page. The schedule for one pet is sent to "/api/get_schedule/<petName>", where "<petName>" is the pet name of the current card. A simple schedule will be sent.
+  4. After making changes to the schedule, you need to re-draw new information on the page. The schedule for one pet is sent to "/api/get_schedule/\<petName\>", where "\<petName\>" is the pet name of the current card. A simple schedule will be sent.
  
 ```
   { 
@@ -172,7 +172,7 @@ The name of the required argument is "delete_pet". When deleting, photos with na
 
 3. Schedule editing: resetting the schedule, adding time, deleting time, activating the use of the schedule
   
-All four actions are processed at /settings/schedule and are GET requests.
+All four actions are processed at "/settings/schedule" and are GET requests.
 
 The first argument in the request will be the name of the action being performed ("delete_time", "change_activate", "add_time", "reset_schedul"), can be obtained by the name action, the second is the name of the pet, can be obtained by the name "pet_name". When deleting or adding time, a third argument appears - the time being added or deleted, which can be obtained by the name "time".
   
@@ -185,4 +185,5 @@ Request examples:
   /settings/schedule?action=reset_schedule&pet_name=Cocca
 ```
 4. Filling the bowl
-A stub function is used, sending a response from the server that the bowl is replenished.
+
+A stub function is used, sending a response from the server that the bowl is replenished. Еhe pet's name can be found from the argument with the name "pet_name".
