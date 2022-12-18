@@ -1,5 +1,16 @@
 function fillBowl() {
-	alert("The bowl is filled with food");
+	if(CURRENT_NAME != undefined){
+        	var xhr = new XMLHttpRequest();
+        	xhr.open('GET', `/fill_bowl?pet_name=${CURRENT_NAME}`, false);
+        	xhr.send();
+        	if (xhr.status != 200) {
+            		alert(xhr.status + ': ' + xhr.statusText); 
+        	} else {
+			alert(`${CURRENT_NAME}\'s bowl was filled`);
+		}
+    	} else {
+        	alert("Please add pet.");
+	} 
 }
 function updateData() {
 	fetch("/api/get_pet_food_level")
