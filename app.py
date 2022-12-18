@@ -124,6 +124,12 @@ def deletePet():
 				jsonFile.close()
 	return redirect(url_for('addPetPage'))   
 
+@app.route('/fill_bowl', methods = ['GET'])
+def fillBowl():
+	if request.method == 'GET':
+		petName = request.args.get('pet_name')
+	return redirect(url_for('mainPage')) 
+
 #api pages
 @app.route('/api/get_pet_food_level')
 def apiGetPetFoodLevel():
